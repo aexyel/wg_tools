@@ -4,3 +4,7 @@
 
 * wgcreateif.sh - create new WG interface
 * wgaddpeer.sh - add Nth peer
+
+## TBD
+
+* wgstat.sh - show peers stats
