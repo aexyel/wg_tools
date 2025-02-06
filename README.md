@@ -1,4 +1,4 @@
-# vmtest
+# (Yet Another) WG Tools
 
 ![schema](images/wg_router.png)
 
