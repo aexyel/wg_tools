@@ -7,7 +7,7 @@ BEGIN {descr="unknown"; ep="not connected"; dur="ever"};
     d[$1]=$2;
 }
 
-/wgpeer/ {key=$2; descr=d[key]};
+/wgpeer/ {key=$2; descr=d[key]; if (descr==""){descr="unknown"};};
 /wgendpoint/ {ep=$2 ":" $3};
 /tx:/ {tx=$2;rx=$4};
 /handshake:/ {dur=$3 " sec ago"};
