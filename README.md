@@ -8,3 +8,7 @@
 ## TBD
 
 * wgstat.sh - show peers stats
+
+# About
+## OpenBaSeD project
+Our goal is writing code for basic OpenBSD installation without external dependencies.
